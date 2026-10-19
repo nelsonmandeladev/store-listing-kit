@@ -1,0 +1,44 @@
+===== App name (26/30) =====
+Difiii: Suivi des dépenses
+
+===== Short description (74/80) =====
+Notez une dépense en quelques secondes. Hors ligne, sans compte, sans pub.
+
+===== Full description (1720/4000) =====
+Vous avez dépensé ? Notez-le avant d'oublier.
+
+Difiii est une application de suivi des dépenses pensée pour la rapidité. Tapez « Déjeuner 6000 » et c'est enregistré : montant, intitulé et date d'un seul coup. Sans inscription, sans banque à connecter, sans internet.
+
+POURQUOI DIFIII
+• Rapide : notez une dépense en moins de 10 secondes.
+• Hors ligne : tout fonctionne sans connexion.
+• Sans compte : ouvrez l'application et commencez. Ni e-mail, ni mot de passe.
+• Privé : vos dépenses restent sur votre téléphone. Nous ne les collectons pas, ne les vendons pas et n'affichons aucune publicité.
+
+SAISIE
+• Écrivez comme vous parlez : « Taxi 2500 », « Courses 18 000 ».
+• Ajoutez une note vocale pour garder les détails.
+• Prenez le reçu en photo et gardez-le avec la dépense.
+• Modifiez ou supprimez d'un simple glissement.
+
+BUDGETS
+• Créez un budget pour la semaine, le mois ou un voyage.
+• Classez chaque dépense par catégorie : nourriture, transport, factures et plus.
+• Prévoyez vos dépenses à venir et vos revenus attendus, et voyez votre solde prévisionnel.
+• Gérez plusieurs budgets en même temps.
+
+ANALYSES
+• Voyez où part votre argent, par catégorie.
+• Comparez les mois avec une tendance sur 6 mois.
+• Consultez le total de chaque jour dans vos dépenses.
+
+PENSÉE POUR VOTRE ARGENT
+• 20 devises africaines, dont le franc CFA (XAF, XOF), le naira, le cedi, le shilling, le rand et le dirham, plus USD, EUR, GBP et d'autres.
+• Anglais et français.
+• Thèmes clair et sombre.
+• Verrouillage par empreinte digitale ou reconnaissance faciale.
+
+Vos données restent uniquement sur votre appareil. Désinstaller l'application ou effacer son stockage les supprime. Politique de confidentialité : https://difiii.com/privacy
+
+===== Release notes (165/500) =====
+Première version. Notez vos dépenses en quelques secondes, hors ligne et sans compte. Budgets, analyses, photos de reçus et notes vocales, en anglais et en français.

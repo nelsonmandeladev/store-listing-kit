@@ -12,6 +12,20 @@ honest Google Play and App Store listing:
 - **`store.json`**: Android + iOS sections, per locale, with asset paths. It is validated
   against store limits and exported to copy-ready text files.
 
+## Example
+
+Real output for [Difiii](examples/difiii/), an expense tracker, captured from a phone and built
+with this skill:
+
+![Five store screenshots made with the skill](examples/difiii/images/screenshots-en.jpg)
+
+![A Google Play feature graphic made with the skill](examples/difiii/images/feature-graphic-en.jpg)
+
+Raw capture → store screenshot, the French set, the config and the listing files:
+[examples/difiii](examples/difiii/).
+
+## Works everywhere
+
 Works with any agent that reads `SKILL.md` skills (Claude Code, Codex, Cursor, Gemini CLI,
 GitHub Copilot, …) and any app stack (Expo/React Native, Flutter, native).
 
@@ -75,6 +89,7 @@ skills/store-listing-kit/
     capture.md                  adb / simctl recipes and pitfalls
     copy-guide.md               caption and description patterns, banned claims
     privacy-policy.md           policy outline
+examples/difiii/                real output: images, config, store.json, listing text
 ```
 
 ## License

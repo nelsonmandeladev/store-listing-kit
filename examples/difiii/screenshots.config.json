@@ -1,0 +1,215 @@
+{
+  "languages": [
+    "en",
+    "fr"
+  ],
+  "rawDir": "raw",
+  "outDir": "play_store",
+  "device": "android",
+  "font": "fonts/ClashDisplay-Variable.woff2",
+  "slides": [
+    {
+      "id": "01-capture",
+      "raw": "capture",
+      "cardRaw": "typed",
+      "card": [
+        25,
+        1020,
+        1055,
+        1257
+      ],
+      "cardTop": 1180,
+      "tilt": -3,
+      "sticker": {
+        "emoji": "⚡",
+        "side": "right",
+        "top": 640
+      },
+      "copy": {
+        "en": {
+          "lines": [
+            "Log an expense",
+            "in 10 seconds"
+          ],
+          "sub": "Type it the way you say it. No account needed."
+        },
+        "fr": {
+          "lines": [
+            "Notez une dépense",
+            "en 10 secondes"
+          ],
+          "sub": "Écrivez comme vous parlez. Sans compte."
+        }
+      }
+    },
+    {
+      "id": "02-budgets",
+      "raw": "budget",
+      "card": [
+        45,
+        640,
+        1035,
+        812
+      ],
+      "cardByLang": {
+        "fr": [
+          45,
+          628,
+          1035,
+          800
+        ]
+      },
+      "cardTop": 1080,
+      "tilt": 3,
+      "sticker": {
+        "emoji": "🗓️",
+        "side": "left",
+        "top": 1500
+      },
+      "copy": {
+        "en": {
+          "lines": [
+            "Budgets that",
+            "see what's coming"
+          ],
+          "sub": "Plan upcoming bills and know what's left."
+        },
+        "fr": {
+          "lines": [
+            "Des budgets qui",
+            "voient venir"
+          ],
+          "sub": "Prévoyez vos factures, voyez ce qu'il reste."
+        }
+      }
+    },
+    {
+      "id": "03-insights",
+      "raw": "insights",
+      "card": [
+        45,
+        978,
+        1035,
+        1176
+      ],
+      "cardByLang": {
+        "fr": [
+          10,
+          265,
+          800,
+          505
+        ]
+      },
+      "cardTop": 1260,
+      "tilt": -3,
+      "sticker": {
+        "emoji": "📊",
+        "side": "right",
+        "top": 700
+      },
+      "copy": {
+        "en": {
+          "lines": [
+            "See where",
+            "your money goes"
+          ],
+          "sub": "Spending by category and month, at a glance."
+        },
+        "fr": {
+          "lines": [
+            "Voyez où part",
+            "votre argent"
+          ],
+          "sub": "Par catégorie et par mois, d'un coup d'œil."
+        }
+      }
+    },
+    {
+      "id": "04-offline",
+      "raw": "records",
+      "card": [
+        45,
+        498,
+        1035,
+        712
+      ],
+      "cardTop": 1000,
+      "tilt": 3,
+      "sticker": {
+        "emoji": "🔒",
+        "side": "left",
+        "top": 1480
+      },
+      "copy": {
+        "en": {
+          "lines": [
+            "No account.",
+            "Works offline."
+          ],
+          "sub": "Your records stay on your phone."
+        },
+        "fr": {
+          "lines": [
+            "Sans compte.",
+            "Hors ligne."
+          ],
+          "sub": "Vos dépenses restent sur votre téléphone."
+        }
+      }
+    },
+    {
+      "id": "05-currencies",
+      "raw": "currency",
+      "card": [
+        45,
+        457,
+        1035,
+        618
+      ],
+      "cardByLang": {
+        "fr": [
+          45,
+          457,
+          1035,
+          652
+        ]
+      },
+      "cardTop": 1000,
+      "tilt": -3,
+      "sticker": {
+        "emoji": "🌍",
+        "side": "right",
+        "top": 1500
+      },
+      "copy": {
+        "en": {
+          "lines": [
+            "Made for",
+            "African money"
+          ],
+          "sub": "20 African currencies, plus USD, EUR and more."
+        },
+        "fr": {
+          "lines": [
+            "Pensée pour",
+            "l'argent africain"
+          ],
+          "sub": "20 devises africaines, plus USD, EUR et d'autres."
+        }
+      }
+    }
+  ],
+  "featureGraphic": {
+    "brandName": "Difiii",
+    "logo": "../assets/brand/difiii-mark.png",
+    "headlineFromSlide": 0,
+    "screens": [
+      "capture",
+      "budget"
+    ],
+    "tagline": {
+      "en": "Offline · No account · No ads",
+      "fr": "Hors ligne · Sans compte · Sans publicité"
+    }
+  }
+}

@@ -1,0 +1,44 @@
+===== App name (23/30) =====
+Difiii: Expense Tracker
+
+===== Short description (78/80) =====
+Log an expense in seconds. Offline, no account. Your data stays on your phone.
+
+===== Full description (1419/4000) =====
+Spent money? Log it before you forget.
+
+Difiii is an expense tracker built for speed. Type "Lunch 6000" and it's saved — amount, title and date in one go. No sign-up, no bank to connect, no internet needed.
+
+WHY DIFIII
+• Fast: log an expense in under 10 seconds.
+• Offline: everything works without a connection.
+• No account: open the app and start. No email, no password.
+• Private: your records stay on your phone. We don't collect them, sell them or show you ads.
+
+CAPTURE
+• Type it the way you'd say it: "Taxi 2500", "Groceries 18 000".
+• Attach a voice note to remember the details.
+• Snap a receipt photo and keep it with the expense.
+• Edit or delete with a swipe.
+
+BUDGETS
+• Set a budget for the week, the month or a trip.
+• Track every expense by category: food, transport, bills and more.
+• Plan upcoming expenses and expected income, and see your projected balance.
+• Run several budgets at the same time.
+
+INSIGHTS
+• See where your money went by category.
+• Compare months with a 6-month trend.
+• Check daily totals in your records.
+
+MADE FOR YOUR MONEY
+• 20 African currencies, including CFA franc (XAF, XOF), naira, cedi, shilling, rand and dirham, plus USD, EUR, GBP and more.
+• English and French.
+• Light and dark themes.
+• App lock with your fingerprint or face.
+
+Your data lives only on your device. Uninstalling the app or clearing its storage deletes it. Privacy policy: https://difiii.com/privacy
+
+===== Release notes (145/500) =====
+First release. Log expenses in seconds, offline and without an account. Budgets, insights, receipt photos and voice notes, in English and French.

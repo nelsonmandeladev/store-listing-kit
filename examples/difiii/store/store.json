@@ -1,0 +1,109 @@
+{
+  "_about": "Store listing data for DIFIII V1 (local-only). Source of truth for the copy: docs/PLAY_STORE_LISTING_V1.md; checklist: docs/PLAY_STORE_RELEASE_V1.md. Paths are relative to difiii-mobile/. Every claim passes the honesty gate (no sync, AI, transcription, ratings or user counts). To paste text into the consoles, open the plain-text file named in each listing's `textFile` (one per platform and language, every field under a labelled heading; regenerate with: node store/export-listing.mjs). Never copy from this file: it escapes line breaks as \n.",
+  "version": "1.0.0",
+  "android": {
+    "packageName": "com.troiscowries.difiii",
+    "defaultLanguage": "fr-FR",
+    "app": {
+      "category": "FINANCE",
+      "contactEmail": "privacy@difiii.com",
+      "website": "https://difiii.com",
+      "privacyPolicyUrl": "https://difiii.com/privacy"
+    },
+    "appContent": {
+      "appAccess": "All functionality is available without special access",
+      "ads": false,
+      "targetAudience": "18+",
+      "dataSafety": {
+        "dataCollected": false,
+        "dataShared": false
+      },
+      "financialFeatures": "Personal budgeting / expense tracking (no loans, payments, banking or crypto)",
+      "contentRating": "Utility / productivity, no user interaction — expect Everyone",
+      "governmentHealthNewsCovid": false
+    },
+    "listings": {
+      "fr-FR": {
+        "title": "Difiii: Suivi des dépenses",
+        "shortDescription": "Notez une dépense en quelques secondes. Hors ligne, sans compte, sans pub.",
+        "fullDescription": "Vous avez dépensé ? Notez-le avant d'oublier.\n\nDifiii est une application de suivi des dépenses pensée pour la rapidité. Tapez « Déjeuner 6000 » et c'est enregistré : montant, intitulé et date d'un seul coup. Sans inscription, sans banque à connecter, sans internet.\n\nPOURQUOI DIFIII\n• Rapide : notez une dépense en moins de 10 secondes.\n• Hors ligne : tout fonctionne sans connexion.\n• Sans compte : ouvrez l'application et commencez. Ni e-mail, ni mot de passe.\n• Privé : vos dépenses restent sur votre téléphone. Nous ne les collectons pas, ne les vendons pas et n'affichons aucune publicité.\n\nSAISIE\n• Écrivez comme vous parlez : « Taxi 2500 », « Courses 18 000 ».\n• Ajoutez une note vocale pour garder les détails.\n• Prenez le reçu en photo et gardez-le avec la dépense.\n• Modifiez ou supprimez d'un simple glissement.\n\nBUDGETS\n• Créez un budget pour la semaine, le mois ou un voyage.\n• Classez chaque dépense par catégorie : nourriture, transport, factures et plus.\n• Prévoyez vos dépenses à venir et vos revenus attendus, et voyez votre solde prévisionnel.\n• Gérez plusieurs budgets en même temps.\n\nANALYSES\n• Voyez où part votre argent, par catégorie.\n• Comparez les mois avec une tendance sur 6 mois.\n• Consultez le total de chaque jour dans vos dépenses.\n\nPENSÉE POUR VOTRE ARGENT\n• 20 devises africaines, dont le franc CFA (XAF, XOF), le naira, le cedi, le shilling, le rand et le dirham, plus USD, EUR, GBP et d'autres.\n• Anglais et français.\n• Thèmes clair et sombre.\n• Verrouillage par empreinte digitale ou reconnaissance faciale.\n\nVos données restent uniquement sur votre appareil. Désinstaller l'application ou effacer son stockage les supprime. Politique de confidentialité : https://difiii.com/privacy",
+        "releaseNotes": "Première version. Notez vos dépenses en quelques secondes, hors ligne et sans compte. Budgets, analyses, photos de reçus et notes vocales, en anglais et en français.",
+        "graphics": {
+          "icon": "store/play-icon-512.png",
+          "featureGraphic": "screenshots/play_store/fr/feature-graphic.png",
+          "phoneScreenshots": [
+            "screenshots/play_store/fr/01-capture.png",
+            "screenshots/play_store/fr/02-budgets.png",
+            "screenshots/play_store/fr/03-insights.png",
+            "screenshots/play_store/fr/04-offline.png",
+            "screenshots/play_store/fr/05-currencies.png"
+          ]
+        },
+        "textFile": "store/listing/android/fr-FR.txt"
+      },
+      "en-US": {
+        "title": "Difiii: Expense Tracker",
+        "shortDescription": "Log an expense in seconds. Offline, no account. Your data stays on your phone.",
+        "fullDescription": "Spent money? Log it before you forget.\n\nDifiii is an expense tracker built for speed. Type \"Lunch 6000\" and it's saved — amount, title and date in one go. No sign-up, no bank to connect, no internet needed.\n\nWHY DIFIII\n• Fast: log an expense in under 10 seconds.\n• Offline: everything works without a connection.\n• No account: open the app and start. No email, no password.\n• Private: your records stay on your phone. We don't collect them, sell them or show you ads.\n\nCAPTURE\n• Type it the way you'd say it: \"Taxi 2500\", \"Groceries 18 000\".\n• Attach a voice note to remember the details.\n• Snap a receipt photo and keep it with the expense.\n• Edit or delete with a swipe.\n\nBUDGETS\n• Set a budget for the week, the month or a trip.\n• Track every expense by category: food, transport, bills and more.\n• Plan upcoming expenses and expected income, and see your projected balance.\n• Run several budgets at the same time.\n\nINSIGHTS\n• See where your money went by category.\n• Compare months with a 6-month trend.\n• Check daily totals in your records.\n\nMADE FOR YOUR MONEY\n• 20 African currencies, including CFA franc (XAF, XOF), naira, cedi, shilling, rand and dirham, plus USD, EUR, GBP and more.\n• English and French.\n• Light and dark themes.\n• App lock with your fingerprint or face.\n\nYour data lives only on your device. Uninstalling the app or clearing its storage deletes it. Privacy policy: https://difiii.com/privacy",
+        "releaseNotes": "First release. Log expenses in seconds, offline and without an account. Budgets, insights, receipt photos and voice notes, in English and French.",
+        "graphics": {
+          "icon": "store/play-icon-512.png",
+          "featureGraphic": "screenshots/play_store/en/feature-graphic.png",
+          "phoneScreenshots": [
+            "screenshots/play_store/en/01-capture.png",
+            "screenshots/play_store/en/02-budgets.png",
+            "screenshots/play_store/en/03-insights.png",
+            "screenshots/play_store/en/04-offline.png",
+            "screenshots/play_store/en/05-currencies.png"
+          ]
+        },
+        "textFile": "store/listing/android/en-US.txt"
+      }
+    }
+  },
+  "ios": {
+    "_status": "Not in the V1 release plan (Play only). Copy is ready; iPhone 6.9\" (1320x2868) and iPad 13\" (2064x2752) screenshots still need capturing on iOS.",
+    "bundleIdentifier": "com.troiscowries.difiii",
+    "primaryLocale": "fr-FR",
+    "app": {
+      "primaryCategory": "FINANCE",
+      "secondaryCategory": "PRODUCTIVITY",
+      "ageRating": "4+",
+      "copyright": "2026 Trois Cowries",
+      "appPrivacy": "Data Not Collected",
+      "contactEmail": "privacy@difiii.com"
+    },
+    "listings": {
+      "fr-FR": {
+        "name": "Difiii: Suivi des dépenses",
+        "subtitle": "Vos dépenses en secondes",
+        "promotionalText": "Notez une dépense en moins de 10 secondes. Hors ligne, sans compte, sans publicité : vos dépenses restent sur votre téléphone.",
+        "description": "Vous avez dépensé ? Notez-le avant d'oublier.\n\nDifiii est une application de suivi des dépenses pensée pour la rapidité. Tapez « Déjeuner 6000 » et c'est enregistré : montant, intitulé et date d'un seul coup. Sans inscription, sans banque à connecter, sans internet.\n\nPOURQUOI DIFIII\n• Rapide : notez une dépense en moins de 10 secondes.\n• Hors ligne : tout fonctionne sans connexion.\n• Sans compte : ouvrez l'application et commencez. Ni e-mail, ni mot de passe.\n• Privé : vos dépenses restent sur votre téléphone. Nous ne les collectons pas, ne les vendons pas et n'affichons aucune publicité.\n\nSAISIE\n• Écrivez comme vous parlez : « Taxi 2500 », « Courses 18 000 ».\n• Ajoutez une note vocale pour garder les détails.\n• Prenez le reçu en photo et gardez-le avec la dépense.\n• Modifiez ou supprimez d'un simple glissement.\n\nBUDGETS\n• Créez un budget pour la semaine, le mois ou un voyage.\n• Classez chaque dépense par catégorie : nourriture, transport, factures et plus.\n• Prévoyez vos dépenses à venir et vos revenus attendus, et voyez votre solde prévisionnel.\n• Gérez plusieurs budgets en même temps.\n\nANALYSES\n• Voyez où part votre argent, par catégorie.\n• Comparez les mois avec une tendance sur 6 mois.\n• Consultez le total de chaque jour dans vos dépenses.\n\nPENSÉE POUR VOTRE ARGENT\n• 20 devises africaines, dont le franc CFA (XAF, XOF), le naira, le cedi, le shilling, le rand et le dirham, plus USD, EUR, GBP et d'autres.\n• Anglais et français.\n• Thèmes clair et sombre.\n• Verrouillage par empreinte digitale ou reconnaissance faciale.\n\nVos données restent uniquement sur votre appareil. Supprimer l'application les supprime. Politique de confidentialité : https://difiii.com/privacy",
+        "keywords": "budget,dépenses,argent,finances,suivi,hors ligne,FCFA,XAF,épargne,reçu,comptes,devises",
+        "supportUrl": "https://difiii.com",
+        "marketingUrl": "https://difiii.com",
+        "privacyPolicyUrl": "https://difiii.com/privacy",
+        "screenshots": {
+          "iphone69": [],
+          "ipad13": []
+        },
+        "textFile": "store/listing/ios/fr-FR.txt"
+      },
+      "en-US": {
+        "name": "Difiii: Expense Tracker",
+        "subtitle": "Log expenses in seconds",
+        "promotionalText": "Log an expense in under 10 seconds. Offline, no account, no ads: your records stay on your phone.",
+        "description": "Spent money? Log it before you forget.\n\nDifiii is an expense tracker built for speed. Type \"Lunch 6000\" and it's saved — amount, title and date in one go. No sign-up, no bank to connect, no internet needed.\n\nWHY DIFIII\n• Fast: log an expense in under 10 seconds.\n• Offline: everything works without a connection.\n• No account: open the app and start. No email, no password.\n• Private: your records stay on your phone. We don't collect them, sell them or show you ads.\n\nCAPTURE\n• Type it the way you'd say it: \"Taxi 2500\", \"Groceries 18 000\".\n• Attach a voice note to remember the details.\n• Snap a receipt photo and keep it with the expense.\n• Edit or delete with a swipe.\n\nBUDGETS\n• Set a budget for the week, the month or a trip.\n• Track every expense by category: food, transport, bills and more.\n• Plan upcoming expenses and expected income, and see your projected balance.\n• Run several budgets at the same time.\n\nINSIGHTS\n• See where your money went by category.\n• Compare months with a 6-month trend.\n• Check daily totals in your records.\n\nMADE FOR YOUR MONEY\n• 20 African currencies, including CFA franc (XAF, XOF), naira, cedi, shilling, rand and dirham, plus USD, EUR, GBP and more.\n• English and French.\n• Light and dark themes.\n• App lock with your fingerprint or face.\n\nYour data lives only on your device. Deleting the app deletes it. Privacy policy: https://difiii.com/privacy",
+        "keywords": "budget,spending,money,finance,offline,CFA,XAF,naira,cedi,savings,receipt,currency,planner",
+        "supportUrl": "https://difiii.com",
+        "marketingUrl": "https://difiii.com",
+        "privacyPolicyUrl": "https://difiii.com/privacy",
+        "screenshots": {
+          "iphone69": [],
+          "ipad13": []
+        },
+        "textFile": "store/listing/ios/en-US.txt"
+      }
+    }
+  }
+}
