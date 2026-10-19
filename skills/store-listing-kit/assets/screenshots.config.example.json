@@ -1,0 +1,54 @@
+{
+  "_about": "Config for build-screenshots.mjs. Paths are relative to this file. card = [x1, y1, x2, y2] crop of the raw capture in raw pixels, shown lifted above the device; cardTop is its top on a 1080-wide canvas (scaled for other sizes).",
+  "languages": ["en", "fr"],
+  "rawDir": "raw",
+  "outDir": "out",
+  "device": "android",
+  "canvas": { "width": 1080, "height": 1920 },
+  "rawSize": { "width": 1080, "height": 2160 },
+  "font": "fonts/BrandDisplay.woff2",
+  "theme": {
+    "background": "#f5f7f6",
+    "tintA": "#b5f5d0",
+    "tintB": "#d9fbe7",
+    "accent": "#35d579",
+    "accentDeep": "#11843b",
+    "text": "#020403",
+    "muted": "#3f4d45"
+  },
+  "slides": [
+    {
+      "id": "01-core",
+      "raw": "home",
+      "cardRaw": "home-typing",
+      "card": [25, 1020, 1055, 1257],
+      "cardTop": 1180,
+      "tilt": -3,
+      "sticker": { "emoji": "⚡", "side": "right", "top": 640 },
+      "copy": {
+        "en": { "lines": ["Do the main thing", "in 10 seconds"], "sub": "One concrete detail that proves it." },
+        "fr": { "lines": ["Faites l'essentiel", "en 10 secondes"], "sub": "Un détail concret qui le prouve." }
+      }
+    },
+    {
+      "id": "02-feature",
+      "raw": "feature",
+      "card": [45, 640, 1035, 812],
+      "cardByLang": { "fr": [45, 628, 1035, 800] },
+      "cardTop": 1080,
+      "tilt": 3,
+      "sticker": { "emoji": "🗓️", "side": "left", "top": 1500 },
+      "copy": {
+        "en": { "lines": ["Features that", "do the work"], "sub": "What the user gets from it." },
+        "fr": { "lines": ["Des fonctions qui", "font le travail"], "sub": "Ce que l'utilisateur y gagne." }
+      }
+    }
+  ],
+  "featureGraphic": {
+    "brandName": "AppName",
+    "logo": "../assets/logo.png",
+    "headlineFromSlide": 0,
+    "screens": ["home", "feature"],
+    "tagline": { "en": "Offline · No account · No ads", "fr": "Hors ligne · Sans compte · Sans publicité" }
+  }
+}
